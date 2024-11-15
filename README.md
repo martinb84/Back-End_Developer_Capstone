@@ -1,3 +1,12 @@
+This is an API for a fictional restaurant named "Little Lemon."
+The API handles the menu and table bookings for the Little Lemon restaurant.
+The API can receive HTTP requests such as GET, POST, PUT and DELETE, and updates the Django models, which in turn, updates the data in a MySQL database.
+The application is set up with user registration and authentication.
+It also contains unit tests.
+Lastly, the API can be tested with the Insomnia REST client.
+
+URLs that can be visited:
+
 http://127.0.0.1:8000/restaurant/api-token-auth/ #test this out on Insomnia to resgister a user. 
 #Enter a username and password and make a POST request to obtain the token.
 #Once the token has been created, copy it, 
